@@ -1,0 +1,105 @@
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #191414;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color:#f5f5f5;
+  }
+.section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 40px;
+    max-width: 1400px;
+}
+.playlistWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.playlistHeader{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: #f5f5f5;
+    border-top: 1px solid #1db954;
+    height: 50px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.dropdown{
+    width: 30px;
+    height: 30px;
+}
+.playlistHeading{
+    font-weight: 500;
+    padding-left: 10px;
+}
+.arrow{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1db954;
+}
+.playlistContent{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+    box-sizing: border-box;
+    height: 200px;
+    transition: all ease 0.5s;
+    border-radius: 5px;
+}
+.item:hover{
+    background-color: #272626;
+}
+.itemTextWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 200px;
+    padding-top: 10px;
+}
+.itemHeading{
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5;
+}
+.itemTracks{
+    font-size: 15px;
+    color: #b1b0b0;
+}
+.itemImage{
+    height: 180px;
+    width: 180px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
